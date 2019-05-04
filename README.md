@@ -2,11 +2,36 @@
 [![sites](SoC/SoC.png)](http://www.qitas.cn) 
 ####  qitas@qitas.cn
 #### 父级：[RTL](https://github.com/sochub/RTL)
-#### 归属：[Cortex M3](https://github.com/sochub/CM3) 
+#### 归属：[Cortex M4](https://github.com/sochub/CM4) 
 
 ### [简介](https://github.com/sochub/RTL8710/wiki)
 
-瑞昱RTL8710是一个完整且自成体系的 WiFi 网络解决方案，集成了一个 ARM Cortex M3 MCU、802.11n 无线网络控制器等于一体，能够独立运行，也可以作为从机搭载于其他主机 MCU运行。
+Realtek RTL8710BN is a highly integrated single chip with a low-power-consumption mechanism ideal for IoT (Internet of Things) applications.
+
+It combines an ARM®Cortex™-M4 MCU, Wireless MAC/Baseband/RF, and configurable GPIOs that can function as digital peripherals for various product applications and control usage. 
+
+CPU
+* ARM®Cortex™-M4 (up to 125MHz)
+* 2.4GHz 1T1R 802.11b/g/n up to 150Mbps; 20MHz and 40MHz
+
+Memory
+* 512KB embedded ROM
+* 256KB embedded SRAM
+* XIP (eXecut In Place)
+* Provides external Flash interface
+
+Peripheral Interface
+* SDIO Slave
+* UART x 2
+* SPI interface (Master/Slave)
+* I2C interface x 2
+* ADC for voltage management
+* PWM x 5
+* Maximum 17 GPIOs
+
+Package
+* Type: QFN-32
+* Size: 5 x 5 mm
 
 ### [组成](https://github.com/sochub/RTL8710)
 
