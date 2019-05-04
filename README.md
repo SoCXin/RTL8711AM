@@ -1,10 +1,10 @@
-﻿# [RTL8710](https://github.com/sochub/RTL8710) 
+﻿# [RTL8710BN](https://github.com/sochub/RTL8710BN) 
 [![sites](SoC/SoC.png)](http://www.qitas.cn) 
 ####  qitas@qitas.cn
 #### 父级：[RTL](https://github.com/sochub/RTL)
 #### 归属：[Cortex M4](https://github.com/sochub/CM4) 
 
-### [简介](https://github.com/sochub/RTL8710/wiki)
+### [简介](https://github.com/sochub/RTL8710BN/wiki)
 
 Realtek RTL8710BN is a highly integrated single chip with a low-power-consumption mechanism ideal for IoT (Internet of Things) applications.
 
@@ -33,14 +33,15 @@ Package
 * Type: QFN-32
 * Size: 5 x 5 mm
 
-### [组成](https://github.com/sochub/RTL8710)
+### [组成](https://github.com/sochub/RTL8710BN)
 
 - [文档](docs/)
 - [资源](src/)
 - [工程](project/)
 
-### [替换方案](https://github.com/sochub/RTL8710)
+### [替换方案](https://github.com/sochub/RTL8710BN)
 
+- [RTL8711AF](https://github.com/sochub/RTL8711AF) 
 - [ESP8266](https://github.com/sochub/ESP8266) 
 - [RDA5981](https://github.com/sochub/RDA5981) 
 
