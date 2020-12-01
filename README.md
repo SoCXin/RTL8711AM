@@ -1,48 +1,31 @@
-﻿# [RTL8710BN](https://github.com/sochub/RTL8710BN) 
-[![sites](SoC/SoC.png)](http://www.qitas.cn) 
-####  qitas@qitas.cn
-#### 父级：[RTL](https://github.com/sochub/RTL)
-#### 归属：[Cortex M4](https://github.com/sochub/CM4) 
+﻿# [RTL8710](https://github.com/SoCXin/RTL8710)
 
-### [简介](https://github.com/sochub/RTL8710BN/wiki)
+[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-Realtek RTL8710BN is a highly integrated single chip with a low-power-consumption mechanism ideal for IoT (Internet of Things) applications.
+#### [Vendor](https://github.com/SoCXin/Vendor) ：[Realtek](https://www.realtek.com/zh/)
+#### [Core](https://github.com/SoCXin/Cortex)：[Cortex M4](https://github.com/SoCXin/CM4)
+#### [Level](https://github.com/SoCXin/Level)：125MHz
 
-It combines an ARM®Cortex™-M4 MCU, Wireless MAC/Baseband/RF, and configurable GPIOs that can function as digital peripherals for various product applications and control usage. 
+[RTL8710](https://github.com/SoCXin/RTL8710) is a highly integrated single chip with a low-power-consumption mechanism ideal for IoT (Internet of Things) applications.
 
-CPU
-* ARM®Cortex™-M4 (up to 125MHz)
+It combines an ARM®Cortex™-M4 MCU, Wireless MAC/Baseband/RF, and configurable GPIOs that can function as digital peripherals for various product applications and control usage.
+
+
 * 2.4GHz 1T1R 802.11b/g/n up to 150Mbps; 20MHz and 40MHz
-
-Memory
-* 512KB embedded ROM
-* 256KB embedded SRAM
-* XIP (eXecut In Place)
-* Provides external Flash interface
-
-Peripheral Interface
+* 512KB ROM, 256KB SRAM
 * SDIO Slave
 * UART x 2
-* SPI interface (Master/Slave)
 * I2C interface x 2
-* ADC for voltage management
-* PWM x 5
-* Maximum 17 GPIOs
+* QFN32 5x5mm
 
-Package
-* Type: QFN-32
-* Size: 5 x 5 mm
-
-### [组成](https://github.com/sochub/RTL8710BN)
+### [组成](https://github.com/SoCXin/RTL8710)
 
 - [文档](docs/)
 - [资源](src/)
 - [工程](project/)
 
-### [替换方案](https://github.com/sochub/RTL8710BN)
+### [选型建议](https://github.com/SoCXin)
 
-- [RTL8711AF](https://github.com/sochub/RTL8711AF) 
-- [ESP8266](https://github.com/sochub/ESP8266) 
-- [RDA5981](https://github.com/sochub/RDA5981) 
+[RTL8710](https://github.com/SoCXin/RTL8710) 单芯片WiFi SoC, 主要对比[ESP8266](https://github.com/SoCXin/ESP8266)和[RDA5981](https://github.com/SoCXin/RDA5981)
 
-##  [SoC开发平台](http://www.qitas.cn)  
+###  [SoC芯平台](http://www.SoC.Xin)
