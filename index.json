@@ -1,0 +1,31 @@
+{
+    "type":"SoC",
+    "name":"RTL8711AM",
+    "title": "Realtek RTL8711AM SoC",
+    "description":"Realtek Cortex-M3 SoC",
+    "Core": {
+        "type":"Cortex-M3",
+        "Freq":550,
+        "DMIPS": 1177,
+        "CoreMark": 2778
+    },
+    "manufacturer": {
+        "vendor":"ST",
+        "homepage":"https://www.st.com/content/st_com/zh/products/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus/stm32-high-performance-mcus/stm32h7-series/RTL8711AM-value-line.htm"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/RTL8711AM.git"
+    },
+    "version":"1.0.0",
+    "series":["RTL8711AMZ","RTL8711AMV","RTL8711AMR","RTL8711AMC","RTL8711AMT"],
+    "package":["LQFP144","LQFP100","LQFP64","LQFP48","QFN36"],
+    "peripheral": ["ADC","UART","I2C","SPI","PWM"],
+    "keywords": [
+        "dev-platform",
+        "ARM",
+        "Cortex-M",
+        "ADC","DAC","SDIO","CAN","I2C","RTC","SPI",
+        "3.6V","1.8V"
+    ]
+}
